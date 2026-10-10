@@ -1,0 +1,85 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --color-obsidian: #000000;
+    --color-graphite: #0e0e0e;
+    --color-carbon: #1d1d1f;
+    --color-steel: #333336;
+    --color-slate: #6e6e73;
+    --color-ash: #86868b;
+    --color-porcelain: #f5f5f7;
+    --color-apple-blue: #0071e3;
+    --color-electric-link: #2997ff;
+    --color-cobalt-link: #0066cc;
+    --color-copper-new: #b64400;
+    --color-optical-yellow: #ffd500;
+  }
+
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "SF Pro Display", "Inter", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background-color: #000000;
+    color: #f5f5f7;
+    overflow-x: hidden;
+  }
+}
+
+/* Apple typography tracking and style classes */
+.tracking-apple-display-xl {
+  letter-spacing: -1.44px;
+}
+.tracking-apple-display {
+  letter-spacing: -1.2px;
+}
+.tracking-apple-hero-name {
+  letter-spacing: 0.128px;
+}
+.tracking-apple-stat {
+  letter-spacing: 0.196px;
+}
+.tracking-apple-product-label {
+  letter-spacing: 0.228px;
+}
+.tracking-apple-nav {
+  letter-spacing: -0.12px;
+}
+.tracking-apple-section-nav {
+  letter-spacing: -0.374px;
+}
+.tracking-apple-body {
+  letter-spacing: -0.224px;
+}
+
+/* Apple Carbon gradient band */
+.bg-carbon-gradient {
+  background: linear-gradient(180deg, #1d1d1f 0%, #000000 288px);
+}
+
+/* Subtle Apple glass backdrop blur */
+.apple-glass-nav {
+  background-color: rgba(14, 14, 14, 0.82);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+}
+
+.apple-glass-utility {
+  background-color: rgba(0, 0, 0, 0.8);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #000000;
+}
+::-webkit-scrollbar-thumb {
+  background: #333336;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #6e6e73;
+}

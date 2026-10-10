@@ -1,0 +1,6 @@
+{
+  "name": "iPhone 18 Pro — Apple",
+  "description": "Explore iPhone 18 Pro and iPhone 18 Pro Max with the revolutionary A19 Pro chip, Titanium design, Camera Control, and advanced Pro camera system.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
